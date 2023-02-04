@@ -15,7 +15,7 @@ WORKDIR /prometheus-2.24.0.linux-amd64/
 
 EXPOSE 9090
 
-CMD [ "./prometheus", "--config.file=./prometheus.yml" ]
+CMD [ "./prometheus", "--config.file=prometheus.yml" ]
 
 
 
